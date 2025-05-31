@@ -33,4 +33,13 @@
 !/.gitattributes
 !/Arrow Shot/
 
+/Arrow Shot/Library/
+# 以下も追加推奨
+/Arrow Shot/Temp/
+/Arrow Shot/obj/
+/Arrow Shot/Logs/
+/Arrow Shot/UserSettings/
+/Arrow Shot/.vs/
+/Arrow Shot/*.csproj
+/Arrow Shot/*.sln
 
