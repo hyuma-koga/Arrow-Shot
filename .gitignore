@@ -1,0 +1,36 @@
+# ArrowShot フォルダ内の Unity キャッシュ・一時ファイルを除外
+/ArrowShot/Library/
+/ArrowShot/Temp/
+/ArrowShot/Obj/
+/ArrowShot/Build/
+/ArrowShot/Builds/
+/ArrowShot/Logs/
+/ArrowShot/UserSettings/
+/ArrowShot/.vs/
+/ArrowShot/.vscode/
+
+# Visual Studio 関連（任意：必要なら残してもOK）
+/ArrowShot/*.csproj
+/ArrowShot/*.sln
+/ArrowShot/*.suo
+/ArrowShot/*.user
+/ArrowShot/*.userprefs
+/ArrowShot/.vsconfig
+
+# OSゴミファイル
+/ArrowShot/.DS_Store
+
+# Unity アセットストア関連（使っていれば）
+/ArrowShot/AssetStoreTools*
+
+# メモリキャプチャなど
+/ArrowShot/MemoryCaptures/
+
+# Addressables 関連（使っていれば）
+/ArrowShot/ServerData/
+/*
+!/.gitignore
+!/.gitattributes
+!/Arrow Shot/
+
+
