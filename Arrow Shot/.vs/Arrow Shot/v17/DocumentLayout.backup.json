@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Unity\\Arrow Shot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_public\\birds\\scripts\\lb_bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_public\\birds\\scripts\\lb_bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_scripts\\bow\\bowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\bow\\bowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_scripts\\bow\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\bow\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "lb_Bird.cs",
-              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "RelativeDocumentMoniker": "Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "RelativeToolTip": "Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAwIsAAABKAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Arrow.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\Arrow.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bow\\Arrow.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\Arrow.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bow\\Arrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:16:03.621Z",
+              "WhenOpened": "2025-06-01T16:27:46.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BowController.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\BowController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bow\\BowController.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\BowController.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bow\\BowController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:27:41.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:25:26.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:25:25.909Z",
               "EditorCaption": ""
             }
           ]

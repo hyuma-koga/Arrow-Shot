@@ -63,7 +63,12 @@
   <ItemGroup>
     <Compile Include="Assets\_Public\Birds\scripts\lb_Bird.cs" />
     <Compile Include="Assets\_Public\Birds\scripts\lb_CrowProximity.cs" />
+    <Compile Include="Assets\_Scripts\Bow\BowController.cs" />
+    <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\_Public\Birds\scripts\lb_BirdController.cs" />
+    <Compile Include="Assets\_Scripts\Player\PlayerAnimationController.cs" />
+    <Compile Include="Assets\_Scripts\Bow\Arrow.cs" />
+    <Compile Include="Assets\_Scripts\Player\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_Public\Map\ReadMe.txt" />
