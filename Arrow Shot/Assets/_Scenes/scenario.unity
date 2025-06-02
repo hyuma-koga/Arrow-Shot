@@ -155,7 +155,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55619441
 MonoBehaviour:
@@ -171,9 +171,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshairUI: {fileID: 55619439}
   mainCamera: {fileID: 1781840167}
+  crosshairRect: {fileID: 55619440}
   zoomFOV: 30
   normalFOV: 60
   zoomSpeed: 5
+  minScale: 0.5
+  shrinkSpeed: 2
 --- !u!114 &55619442
 MonoBehaviour:
   m_ObjectHideFlags: 0
