@@ -4,8 +4,8 @@ public class TPSCameraController : MonoBehaviour
 {
     [SerializeField] private Transform playerBody;     // Y²‰ñ“]i¶‰Ej’S“–
     [SerializeField] private Transform cameraHolder;   // X²‰ñ“]iã‰ºj’S“–
-
     [SerializeField] private float mouseSensitivity = 2f;
+
     private float xRotation = 0f;
     private float yRotation = 0f;
 

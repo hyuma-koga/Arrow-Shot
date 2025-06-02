@@ -174,7 +174,7 @@ MonoBehaviour:
   crosshairRect: {fileID: 55619440}
   zoomFOV: 30
   normalFOV: 60
-  zoomSpeed: 5
+  zoomSpeed: 15
   minScale: 0.5
   shrinkSpeed: 2
 --- !u!114 &55619442

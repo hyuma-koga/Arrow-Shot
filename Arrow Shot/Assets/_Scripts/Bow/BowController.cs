@@ -37,8 +37,15 @@ public class BowController : MonoBehaviour
 
     public void HandleShooting()
     {
+        // チャージ中にプレイヤーの向きをカメラに追従させる
+        if (isCharging)
+        {
+            Vector3 lookDir = Camera.main.transform.forward;
+            lookDir.y = 0f;
+            lookDir = Quaternion.Euler(0, 90f, 0) * lookDir; // ← 右に90度回転
+            transform.forward = lookDir.normalized;
+        }
 
-        //汎用的にズームを解除
         if (Input.GetMouseButtonUp(0))
         {
             EndZoomAndHideCrosshair();
@@ -49,6 +56,7 @@ public class BowController : MonoBehaviour
         {
             Vector3 lookDir = Camera.main.transform.forward;
             lookDir.y = 0f;
+            lookDir = Quaternion.Euler(0, 90f, 0) * lookDir; // ← 初回も補正
             transform.forward = lookDir.normalized;
 
             isCharging = true;
@@ -129,9 +137,19 @@ public class BowController : MonoBehaviour
         float normalizedCharge = Mathf.Clamp01(chargeTime / maxChargeTime);
         float launchForce = Mathf.Lerp(minLaunchForce, maxLaunchForce, normalizedCharge);
 
+        // 矢の飛ぶ方向はカメラ中心（クロスヘア）方向
+        Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        Vector3 shootDirection = ray.direction;
+
+        // 見た目の回転は firePoint の向きに従う（アニメーション用）
         GameObject arrow = Instantiate(arrowPrefab, firePoint.position, firePoint.rotation);
         Rigidbody rb = arrow.GetComponent<Rigidbody>();
-        rb.AddForce(firePoint.forward * launchForce, ForceMode.VelocityChange);
+        rb.linearVelocity = shootDirection * launchForce;
+
+        // 発射後、プレイヤーの向きをカメラ方向に戻す
+        Vector3 camForward = Camera.main.transform.forward;
+        camForward.y = 0f;
+        transform.forward = camForward.normalized;
 
         shootState = ShootState.None;
         isCharging = false;
