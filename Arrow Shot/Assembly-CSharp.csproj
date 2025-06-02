@@ -65,10 +65,15 @@
     <Compile Include="Assets\_Public\Birds\scripts\lb_CrowProximity.cs" />
     <Compile Include="Assets\_Scripts\Bow\BowController.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\_Scripts\Camera\CameraFollowTargetFollow.cs" />
     <Compile Include="Assets\_Public\Birds\scripts\lb_BirdController.cs" />
+    <Compile Include="Assets\_Scripts\Camera\TPSCameraController.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerAnimationController.cs" />
+    <Compile Include="Assets\_Scripts\Crosshair\CrosshairController.cs" />
     <Compile Include="Assets\_Scripts\Bow\Arrow.cs" />
+    <Compile Include="Assets\_Scripts\Player\PlayerRotationAdjuster.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\_Scripts\Camera\TPSCameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_Public\Map\ReadMe.txt" />
@@ -1083,6 +1088,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
@@ -1135,12 +1144,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Bindings.OpenImageIO.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Bindings.OpenImageIO.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Editor">
@@ -1229,6 +1246,10 @@
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">

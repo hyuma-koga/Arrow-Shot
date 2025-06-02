@@ -8,6 +8,7 @@ public class BowController : MonoBehaviour
     [SerializeField] private float maxChargeTime = 2f;
     [SerializeField] private float minLaunchForce = 5f;
     [SerializeField] private float maxLaunchForce = 20f;
+    [SerializeField] private CrosshairController crosshair;
 
     private enum ShootState
     {
@@ -23,6 +24,7 @@ public class BowController : MonoBehaviour
     private float chargeTime = 0f;
     private bool isCharging = false;
     private bool isPaused = false;
+    private bool isZooming = false;
 
     public bool IsShooting => isCharging;
     public bool IsShootAnimationPlaying => isPaused || isCharging;
@@ -35,15 +37,33 @@ public class BowController : MonoBehaviour
 
     public void HandleShooting()
     {
+
+        //汎用的にズームを解除
+        if (Input.GetMouseButtonUp(0))
+        {
+            EndZoomAndHideCrosshair();
+        }
+
         // ボタンを押した瞬間：Shootトリガー → アニメ再生開始
         if (Input.GetMouseButtonDown(0) && shootState == ShootState.None)
         {
+            Vector3 lookDir = Camera.main.transform.forward;
+            lookDir.y = 0f;
+            transform.forward = lookDir.normalized;
+
             isCharging = true;
             chargeTime = 0f;
             shootState = ShootState.Charging;
             animator.speed = 1.7f;
             animationController.PlayShoot();
             StartCoroutine(WaitAndPauseAnimation());
+
+            if (!isZooming)
+            {
+                crosshair.ShowCrosshair();
+                crosshair.StartZoom();
+                isZooming = true;
+            }
         }
 
         // 長押し中：チャージ時間を加算
@@ -55,7 +75,6 @@ public class BowController : MonoBehaviour
         //追加：チャージ中にすぐ離されたら即発射
         if (shootState == ShootState.Charging && Input.GetMouseButtonUp(0))
         {
-            Debug.Log("Quick release during Charging - Fire immediately");
             animator.speed = 1f;
             animator.Play("Shoot", 0, 0.59f);
             shootState = ShootState.Releasing;
@@ -64,7 +83,6 @@ public class BowController : MonoBehaviour
         // ボタン離したらアニメ再開
         if (shootState == ShootState.Paused && Input.GetMouseButtonUp(0))
         {
-            Debug.Log("Resume shoot animation");
             animator.speed = 1f; // アニメ続き再開
             animator.Play("Shoot", 0, 0.59f);
             shootState = ShootState.Releasing;
@@ -89,7 +107,6 @@ public class BowController : MonoBehaviour
             if (!Input.GetMouseButton(0))
             {
                 //途中で離されたら、強制的に続き再生＆発射準備
-                Debug.Log("早めに離された → 発射に切り替え");
                 animator.speed = 1f;
                 animator.Play("Shoot", 0, 0.59f);
                 shootState = ShootState.Releasing;
@@ -104,15 +121,11 @@ public class BowController : MonoBehaviour
         animator.speed = 0f;
         isPaused = true;
         shootState = ShootState.Paused;
-        Debug.Log("Shootアニメ 3.03秒で停止（normalizedTime 0.59）");
     }
-
 
     // アニメーションイベントで呼ばれる
     public void FireArrowFromAnimation()
     {
-        Debug.Log("FireArrowFromAnimation CALLED");
-
         float normalizedCharge = Mathf.Clamp01(chargeTime / maxChargeTime);
         float launchForce = Mathf.Lerp(minLaunchForce, maxLaunchForce, normalizedCharge);
 
@@ -124,5 +137,17 @@ public class BowController : MonoBehaviour
         isCharging = false;
         isPaused = false;
         animationController.PlayIdle();
+    }
+
+    //ズーム解除とクロスヘア非表示を一括管理
+    private void EndZoomAndHideCrosshair()
+    {
+        if(crosshair != null && isZooming)
+        {
+            crosshair.ForceResetFOV();
+            crosshair.EndZoom();
+            crosshair.HideCrosshair();
+            isZooming = false;
+        }
     }
 }

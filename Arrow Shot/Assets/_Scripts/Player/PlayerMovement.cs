@@ -1,9 +1,9 @@
-using System.Runtime.CompilerServices;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private Transform playerBody; // モデルの向きを変える用（通常は this.transform）
 
     private PlayerAnimationController animationController;
     private BowController bowController;
@@ -22,21 +22,29 @@ public class PlayerMovement : MonoBehaviour
 
     public void HandleMovement()
     {
-        //�ˌ����̓A�j���[�V�����Đ��𐧌䂵�Ȃ�
-        if(bowController != null && bowController.IsShooting)
-        {
+        if (bowController != null && bowController.IsShooting)
             return;
-        }
 
         float inputX = Input.GetAxisRaw("Horizontal");
+        float inputZ = Input.GetAxisRaw("Vertical");
 
-        if(Mathf.Abs(inputX) > 0f)
+        Vector3 moveDirection = new Vector3(inputX, 0f, inputZ).normalized;
+
+        // 入力があるときだけ移動＆向き変更
+        if (moveDirection.magnitude > 0f)
         {
             if (!wasMoving)
             {
                 animationController.PlayMove();
                 wasMoving = true;
             }
+
+            // 向き変更（カメラのY軸方向を基準にする）
+            Vector3 worldDirection = Camera.main.transform.TransformDirection(moveDirection);
+            worldDirection.y = 0f;
+            playerBody.forward = worldDirection.normalized;
+
+            transform.Translate(worldDirection.normalized * moveSpeed * Time.deltaTime, Space.World);
         }
         else
         {
@@ -46,10 +54,5 @@ public class PlayerMovement : MonoBehaviour
                 wasMoving = false;
             }
         }
-
-        Vector3 move = new Vector3(inputX, 0, 0);
-        transform.Translate(move * moveSpeed * Time.deltaTime);
     }
-
-
 }

@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "D:\\Unity\\Arrow Shot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_public\\birds\\scripts\\lb_bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_public\\birds\\scripts\\lb_bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\camera\\headrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\camera\\headrotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_scripts\\player\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_scripts\\camera\\tpscamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\camera\\tpscamerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_scripts\\camera\\camerafollowtargetfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\camera\\camerafollowtargetfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\camera\\tpscameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\camera\\tpscameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|d:\\unity\\arrow shot\\assets\\_scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\player\\playerrotationadjuster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playerrotationadjuster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\player\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playeranimationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\bow\\bowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\bow\\bowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\camera\\fpscamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\camera\\fpscamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCBB8F89-B8E1-711A-3F8A-7B2DC8DB709E}|Assembly-CSharp.csproj|D:\\Unity\\Arrow Shot\\assets\\_scripts\\bow\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,85 +54,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "lb_Bird.cs",
-              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "RelativeDocumentMoniker": "Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "RelativeToolTip": "Assets\\_Public\\Birds\\scripts\\lb_Bird.cs",
-              "ViewState": "AgIAAFQBAAAAAAAAAAAkwGYBAABLAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CameraFollowTargetFollow.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\CameraFollowTargetFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Camera\\CameraFollowTargetFollow.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\CameraFollowTargetFollow.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Camera\\CameraFollowTargetFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:24:50.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerAnimationController.cs",
-              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
-              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T17:18:25.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Arrow.cs",
-              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\Arrow.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bow\\Arrow.cs",
-              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\Arrow.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Bow\\Arrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:27:46.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BowController.cs",
-              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\BowController.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bow\\BowController.cs",
-              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\BowController.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Bow\\BowController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:27:41.607Z",
+              "WhenOpened": "2025-06-02T11:27:04.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TPSCameraController.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\TPSCameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Camera\\TPSCameraController.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\TPSCameraController.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Camera\\TPSCameraController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:53:47.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TPSCameraFollow.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\TPSCameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Camera\\TPSCameraFollow.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\TPSCameraFollow.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Camera\\TPSCameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:38:05.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerRotationAdjuster.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerRotationAdjuster.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerRotationAdjuster.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerRotationAdjuster.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerRotationAdjuster.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:05:24.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeadRotator.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\HeadRotator.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Camera\\HeadRotator.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\HeadRotator.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Camera\\HeadRotator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:31:20.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FPSCamera.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\FPSCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Camera\\FPSCamera.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Camera\\FPSCamera.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Camera\\FPSCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:26:42.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Arrow.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\Arrow.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bow\\Arrow.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\Arrow.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bow\\Arrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:27:46.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerAnimationController.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerAnimationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T17:18:25.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BowController.cs",
+              "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\BowController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bow\\BowController.cs",
+              "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Bow\\BowController.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bow\\BowController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:27:41.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:25:26.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T16:25:26.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerController.cs",
               "ToolTip": "D:\\Unity\\Arrow Shot\\Assets\\_Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:25:25.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T16:25:25.909Z"
             }
           ]
         }
