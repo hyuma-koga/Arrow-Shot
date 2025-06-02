@@ -9,3 +9,4 @@
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.anim filter=lfs diff=lfs merge=lfs -text
 *.prefab filter=lfs diff=lfs merge=lfs -text
+Arrow[[:space:]]Shot/Assets/_Scenes/scenario/LightingData.asset filter=lfs diff=lfs merge=lfs -text
