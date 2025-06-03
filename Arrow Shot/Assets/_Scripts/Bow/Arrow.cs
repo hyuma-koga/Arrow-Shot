@@ -15,7 +15,7 @@ public class Arrow : MonoBehaviour
 
         if (other.CompareTag("Bird"))
         {
-            Debug.Log("íπÇ…ñΩíÜÅI");
+            ScoreManager.Instance?.AddScore(10);
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
