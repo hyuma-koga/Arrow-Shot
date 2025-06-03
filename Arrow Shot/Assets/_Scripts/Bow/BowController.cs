@@ -9,7 +9,7 @@ public class BowController : MonoBehaviour
     [SerializeField] private float minLaunchForce = 5f;
     [SerializeField] private float maxLaunchForce = 20f;
     [SerializeField] private CrosshairController crosshair;
-
+   
     private enum ShootState
     {
         None,

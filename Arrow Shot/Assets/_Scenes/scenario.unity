@@ -1600,6 +1600,16 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 234f6fb2a7141ac4babed013ec52d294, type: 3}
+--- !u!1 &454860522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3458298568402016439, guid: 7fed64c72e506044ab46412196067190, type: 3}
+  m_PrefabInstance: {fileID: 984803086302012351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &454860529 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+  m_PrefabInstance: {fileID: 984803086302012351}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &464610260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,6 +2213,54 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8244925291293049a4f9db693e9e395, type: 3}
+--- !u!1 &582302927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 582302931}
+  - component: {fileID: 582302929}
+  m_Layer: 0
+  m_Name: BirdManager
+  m_TagString: Bird
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &582302929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582302927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5349236f461ef4842ac117679df5805d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdPrefab: {fileID: 454860522}
+  birdCount: 30
+  spawnRadius: 50
+--- !u!4 &582302931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582302927}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.1067653, y: 5.4692497, z: 1.5438967}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 454860529}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &585325360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3680,7 +3738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 305bc76a13fe5a0449c63127455cc1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 6.99
   playerBody: {fileID: 1204845135}
 --- !u!114 &1204845131
 MonoBehaviour:
@@ -3722,8 +3780,8 @@ MonoBehaviour:
   arrowPrefab: {fileID: 7858110491591433373, guid: cefac3b69ecd4f14988b3e417aac9da3, type: 3}
   firePoint: {fileID: 515457123}
   maxChargeTime: 2
-  minLaunchForce: 5
-  maxLaunchForce: 20
+  minLaunchForce: 30
+  maxLaunchForce: 60
   crosshair: {fileID: 55619441}
 --- !u!95 &1204845134 stripped
 Animator:
@@ -6330,6 +6388,92 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 1204845135}
   offset: {x: 0, y: 0, z: 0}
+--- !u!1001 &984803086302012351
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 582302931}
+    m_Modifications:
+    - target: {fileID: 1725032223880836210, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: maxY
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725032223880836210, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: minY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725032223880836210, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: speed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319221155235479016, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402016435, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402016439, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_Name
+      value: blueJay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402016439, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402016525, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.166765
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8082497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.30710328
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458298568402502999, guid: 7fed64c72e506044ab46412196067190, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2944231681337106388, guid: 7fed64c72e506044ab46412196067190, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fed64c72e506044ab46412196067190, type: 3}
 --- !u!1001 &4142370923481901047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6338,6 +6482,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7270287724419870956, guid: cefac3b69ecd4f14988b3e417aac9da3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7858110491591433373, guid: cefac3b69ecd4f14988b3e417aac9da3, type: 3}
       propertyPath: m_Name
       value: Weapon_Arrow
@@ -6382,6 +6530,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8922669127960804426, guid: cefac3b69ecd4f14988b3e417aac9da3, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922669127960804426, guid: cefac3b69ecd4f14988b3e417aac9da3, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6398,3 +6554,4 @@ SceneRoots:
   - {fileID: 464610261}
   - {fileID: 1847108756}
   - {fileID: 1708893340}
+  - {fileID: 582302931}

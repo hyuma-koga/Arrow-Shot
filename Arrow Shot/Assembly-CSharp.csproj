@@ -68,12 +68,15 @@
     <Compile Include="Assets\_Scripts\Camera\CameraFollowTargetFollow.cs" />
     <Compile Include="Assets\_Public\Birds\scripts\lb_BirdController.cs" />
     <Compile Include="Assets\_Scripts\Camera\TPSCameraController.cs" />
+    <Compile Include="Assets\_Scripts\Bird\BirdController.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerAnimationController.cs" />
+    <Compile Include="Assets\_Scripts\Bird\BirdMover.cs" />
     <Compile Include="Assets\_Scripts\Crosshair\CrosshairController.cs" />
     <Compile Include="Assets\_Scripts\Bow\Arrow.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerRotationAdjuster.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\_Scripts\Camera\TPSCameraFollow.cs" />
+    <Compile Include="Assets\_Scripts\Bird\BirdHitHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_Public\Map\ReadMe.txt" />
@@ -1240,16 +1243,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">

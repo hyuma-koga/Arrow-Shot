@@ -16,6 +16,11 @@
 /ArrowShot/*.user
 /ArrowShot/*.userprefs
 /ArrowShot/.vsconfig
+.vs/
+Logs/
+Recordings/
+obj/
+
 
 # OSゴミファイル
 /ArrowShot/.DS_Store
@@ -42,4 +47,5 @@
 /Arrow Shot/.vs/
 /Arrow Shot/*.csproj
 /Arrow Shot/*.sln
+/Arrow Shot/Recordings/
 

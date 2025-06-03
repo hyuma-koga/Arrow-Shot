@@ -11,11 +11,14 @@ public class Arrow : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("衝突対象: " + other.name);
+
         if (other.CompareTag("Bird"))
         {
-            //得点処理やエフェクト追加など
+            Debug.Log("鳥に命中！");
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
     }
+
 }
