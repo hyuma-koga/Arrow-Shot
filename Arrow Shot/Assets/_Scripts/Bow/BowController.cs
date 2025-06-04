@@ -5,6 +5,7 @@ public class BowController : MonoBehaviour
 {
     [SerializeField] private GameObject arrowPrefab;
     [SerializeField] private Transform firePoint;
+    [SerializeField] private Transform playerVisualRoot;
     [SerializeField] private float maxChargeTime = 2f;
     [SerializeField] private float minLaunchForce = 5f;
     [SerializeField] private float maxLaunchForce = 20f;
@@ -43,7 +44,10 @@ public class BowController : MonoBehaviour
             Vector3 lookDir = Camera.main.transform.forward;
             lookDir.y = 0f;
             lookDir = Quaternion.Euler(0, 90f, 0) * lookDir; // ← 右に90度回転
-            transform.forward = lookDir.normalized;
+            if(playerVisualRoot != null)
+            {
+                playerVisualRoot.forward = lookDir.normalized;
+            }
         }
 
         if (Input.GetMouseButtonUp(0))
@@ -57,7 +61,7 @@ public class BowController : MonoBehaviour
             Vector3 lookDir = Camera.main.transform.forward;
             lookDir.y = 0f;
             lookDir = Quaternion.Euler(0, 90f, 0) * lookDir; // ← 初回も補正
-            transform.forward = lookDir.normalized;
+            playerVisualRoot.forward = lookDir.normalized;
 
             isCharging = true;
             chargeTime = 0f;
@@ -146,10 +150,10 @@ public class BowController : MonoBehaviour
         Rigidbody rb = arrow.GetComponent<Rigidbody>();
         rb.linearVelocity = shootDirection * launchForce;
 
-        // 発射後、プレイヤーの向きをカメラ方向に戻す
-        Vector3 camForward = Camera.main.transform.forward;
-        camForward.y = 0f;
-        transform.forward = camForward.normalized;
+        //// 発射後、プレイヤーの向きをカメラ方向に戻す
+        //Vector3 camForward = Camera.main.transform.forward;
+        //camForward.y = 0f;
+        //transform.forward = camForward.normalized;
 
         shootState = ShootState.None;
         isCharging = false;

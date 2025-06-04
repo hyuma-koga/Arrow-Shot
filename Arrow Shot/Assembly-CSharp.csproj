@@ -61,22 +61,28 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\UI\Crosshair\CrosshairController.cs" />
+    <Compile Include="Assets\_Scripts\Scene\StartScene\StartMenu.cs" />
+    <Compile Include="Assets\_Scripts\Scene\ClearScene\ReturnToStartScene.cs" />
+    <Compile Include="Assets\_Scripts\UI\Timer\TimeLimitUI.cs" />
+    <Compile Include="Assets\_Scripts\UI\Score\ScoreManager.cs" />
     <Compile Include="Assets\_Public\Birds\scripts\lb_Bird.cs" />
     <Compile Include="Assets\_Public\Birds\scripts\lb_CrowProximity.cs" />
-    <Compile Include="Assets\_Scripts\StartScene\StartMenu.cs" />
     <Compile Include="Assets\_Scripts\Bow\BowController.cs" />
+    <Compile Include="Assets\_Scripts\Scene\ClearScene\ClearSceneInitializer.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\Camera\CameraFollowTargetFollow.cs" />
     <Compile Include="Assets\_Public\Birds\scripts\lb_BirdController.cs" />
     <Compile Include="Assets\_Scripts\Camera\TPSCameraController.cs" />
     <Compile Include="Assets\_Scripts\Bird\BirdController.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerAnimationController.cs" />
-    <Compile Include="Assets\_Scripts\Score\ScoreManager.cs" />
+    <Compile Include="Assets\_Scripts\UI\Score\ScoreTextBinder.cs" />
     <Compile Include="Assets\_Scripts\Bird\BirdMover.cs" />
-    <Compile Include="Assets\_Scripts\Crosshair\CrosshairController.cs" />
     <Compile Include="Assets\_Scripts\Bow\Arrow.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerRotationAdjuster.cs" />
+    <Compile Include="Assets\_Scripts\UI\Timer\TimeLimitController.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\_Scripts\UI\Score\ClearSceneScoreDisplay.cs" />
     <Compile Include="Assets\_Scripts\Camera\TPSCameraFollow.cs" />
     <Compile Include="Assets\_Scripts\Bird\BirdHitHandler.cs" />
   </ItemGroup>
