@@ -61,7 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Public\Player\ToonShader\Shader\Editor\ToonShaderGUI.cs" />
+    <Compile Include="Assets\_Public\ThirdParty\Player\ToonShader\Shader\Editor\ToonShaderGUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

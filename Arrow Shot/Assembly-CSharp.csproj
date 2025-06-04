@@ -61,30 +61,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Scripts\UI\Crosshair\CrosshairController.cs" />
-    <Compile Include="Assets\_Scripts\Scene\StartScene\StartMenu.cs" />
-    <Compile Include="Assets\_Scripts\Scene\ClearScene\ReturnToStartScene.cs" />
-    <Compile Include="Assets\_Scripts\UI\Timer\TimeLimitUI.cs" />
-    <Compile Include="Assets\_Scripts\UI\Score\ScoreManager.cs" />
-    <Compile Include="Assets\_Public\Birds\scripts\lb_Bird.cs" />
-    <Compile Include="Assets\_Public\Birds\scripts\lb_CrowProximity.cs" />
-    <Compile Include="Assets\_Scripts\Bow\BowController.cs" />
-    <Compile Include="Assets\_Scripts\Scene\ClearScene\ClearSceneInitializer.cs" />
-    <Compile Include="Assets\_Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\_Scripts\Camera\CameraFollowTargetFollow.cs" />
-    <Compile Include="Assets\_Public\Birds\scripts\lb_BirdController.cs" />
-    <Compile Include="Assets\_Scripts\Camera\TPSCameraController.cs" />
-    <Compile Include="Assets\_Scripts\Bird\BirdController.cs" />
-    <Compile Include="Assets\_Scripts\Player\PlayerAnimationController.cs" />
-    <Compile Include="Assets\_Scripts\UI\Score\ScoreTextBinder.cs" />
-    <Compile Include="Assets\_Scripts\Bird\BirdMover.cs" />
-    <Compile Include="Assets\_Scripts\Bow\Arrow.cs" />
-    <Compile Include="Assets\_Scripts\Player\PlayerRotationAdjuster.cs" />
-    <Compile Include="Assets\_Scripts\UI\Timer\TimeLimitController.cs" />
-    <Compile Include="Assets\_Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\_Scripts\UI\Score\ClearSceneScoreDisplay.cs" />
-    <Compile Include="Assets\_Scripts\Camera\TPSCameraFollow.cs" />
-    <Compile Include="Assets\_Scripts\Bird\BirdHitHandler.cs" />
+    <Compile Include="Assets\_Public\Scripts\Scene_Move\ClearScene\ReturnToStartScene.cs" />
+    <Compile Include="Assets\_Public\Scripts\Bird\BirdController.cs" />
+    <Compile Include="Assets\_Public\Scripts\Score\ScoreManager.cs" />
+    <Compile Include="Assets\_Public\Scripts\Bird\BirdHitHandler.cs" />
+    <Compile Include="Assets\_Public\Scripts\Crosshair\CrosshairController.cs" />
+    <Compile Include="Assets\_Public\Scripts\Bow\Arrow.cs" />
+    <Compile Include="Assets\_Public\Scripts\Timer\TimeLimitUI.cs" />
+    <Compile Include="Assets\_Public\Scripts\Score\ScoreTextBinder.cs" />
+    <Compile Include="Assets\_Public\Scripts\Camera\CameraFollowTargetFollow.cs" />
+    <Compile Include="Assets\_Public\Scripts\Player\PlayerAnimationController.cs" />
+    <Compile Include="Assets\_Public\ThirdParty\Birds\scripts\lb_BirdController.cs" />
+    <Compile Include="Assets\_Public\Scripts\Scene_Move\ClearScene\ClearSceneInitializer.cs" />
+    <Compile Include="Assets\_Public\Scripts\Score\ClearSceneScoreDisplay.cs" />
+    <Compile Include="Assets\_Public\Scripts\Scene_Move\StartScene\StartMenu.cs" />
+    <Compile Include="Assets\_Public\ThirdParty\Birds\scripts\lb_CrowProximity.cs" />
+    <Compile Include="Assets\_Public\Scripts\Bird\BirdMover.cs" />
+    <Compile Include="Assets\_Public\ThirdParty\Birds\scripts\lb_Bird.cs" />
+    <Compile Include="Assets\_Public\Scripts\Player\PlayerRotationAdjuster.cs" />
+    <Compile Include="Assets\_Public\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\_Public\Scripts\Timer\TimeLimitController.cs" />
+    <Compile Include="Assets\_Public\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\_Public\Scripts\Bow\BowController.cs" />
+    <Compile Include="Assets\_Public\Scripts\Camera\TPSCameraFollow.cs" />
+    <Compile Include="Assets\_Public\Scripts\Camera\TPSCameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -104,8 +104,8 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\_Public\Map\ReadMe.txt" />
-    <None Include="Assets\_Public\Player\ToonShader\Shader\CustomLighting\CustomLighting.hlsl" />
+    <None Include="Assets\_Public\ThirdParty\Map\ReadMe.txt" />
+    <None Include="Assets\_Public\ThirdParty\Player\ToonShader\Shader\CustomLighting\CustomLighting.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
