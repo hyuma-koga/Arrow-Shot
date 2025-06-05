@@ -479,7 +479,7 @@
             "m_Id": "d98698488cbe4774be533c275d4895ca"
         },
         {
-            "m_Id": "798d28a8ce4b43cfa6b6d1dbe878bd27"
+            "m_Id": "02ad1faa6511420e899923007d94b6c6"
         }
     ],
     "m_GroupDatas": [
@@ -2608,7 +2608,7 @@
                 "m_Id": "8161a41e46a44118aacf241a4b164aeb"
             },
             {
-                "m_Id": "798d28a8ce4b43cfa6b6d1dbe878bd27"
+                "m_Id": "02ad1faa6511420e899923007d94b6c6"
             }
         ]
     },
@@ -2865,6 +2865,40 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "02ad1faa6511420e899923007d94b6c6",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.AlphaClipThreshold",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "b7142e1c643a47498338debf5b8c9f75"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.AlphaClipThreshold"
 }
 
 {
@@ -4665,7 +4699,7 @@
     "m_Title": "Main light shadows",
     "m_Position": {
         "x": 896.7999267578125,
-        "y": -1375.2003173828125
+        "y": -1375.2001953125
     }
 }
 
@@ -5022,21 +5056,6 @@
         "e32": 0.0,
         "e33": 1.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "1f32f160a5324d229b416728575f1e92",
-    "m_Id": 0,
-    "m_DisplayName": "Alpha Clip Threshold",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "AlphaClipThreshold",
-    "m_StageCapability": 2,
-    "m_Value": 0.5,
-    "m_DefaultValue": 0.5,
-    "m_Labels": []
 }
 
 {
@@ -6512,7 +6531,7 @@
     "m_Title": "Strong side rim",
     "m_Position": {
         "x": 6002.39990234375,
-        "y": -728.0000610351563
+        "y": -728.0
     }
 }
 
@@ -7114,7 +7133,7 @@
     "m_Title": "Toon treatment",
     "m_Position": {
         "x": 1660.7998046875,
-        "y": -1568.8001708984375
+        "y": -1568.800048828125
     }
 }
 
@@ -8145,7 +8164,7 @@
     "m_Title": "Additional light",
     "m_Position": {
         "x": 4013.599853515625,
-        "y": -1332.0
+        "y": -1331.9998779296875
     }
 }
 
@@ -9412,7 +9431,7 @@
     "m_Title": "Paintbrush Specular Model",
     "m_Position": {
         "x": 2565.599853515625,
-        "y": 758.3998413085938
+        "y": 758.39990234375
     }
 }
 
@@ -9606,40 +9625,6 @@
         "e32": 0.0,
         "e33": 1.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "798d28a8ce4b43cfa6b6d1dbe878bd27",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SurfaceDescription.AlphaClipThreshold",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "1f32f160a5324d229b416728575f1e92"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedDescriptor": "SurfaceDescription.AlphaClipThreshold"
 }
 
 {
@@ -10413,7 +10398,7 @@
     "m_Title": "Extra Toon Band (Hair)",
     "m_Position": {
         "x": 1505.5999755859375,
-        "y": -1168.8001708984375
+        "y": -1168.800048828125
     }
 }
 
@@ -12896,7 +12881,7 @@
     "m_Title": "Culling mask",
     "m_Position": {
         "x": 3519.999755859375,
-        "y": -1872.0
+        "y": -1871.9998779296875
     }
 }
 
@@ -14120,6 +14105,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "b7142e1c643a47498338debf5b8c9f75",
+    "m_Id": 0,
+    "m_DisplayName": "Alpha Clip Threshold",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "AlphaClipThreshold",
+    "m_StageCapability": 2,
+    "m_Value": 0.5,
+    "m_DefaultValue": 0.5,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "b74cc70a1b644cd2a9741d71a7117885",
     "m_Id": 2,
@@ -14257,7 +14257,7 @@
     "m_ObjectId": "ba6661722646464f88ef64a4fb5f8cee",
     "m_Title": "Tint color",
     "m_Position": {
-        "x": 6416.80126953125,
+        "x": 6416.80078125,
         "y": -2188.0
     }
 }
@@ -14734,7 +14734,7 @@
     "m_Title": "Backlight soft rim",
     "m_Position": {
         "x": 2492.800048828125,
-        "y": -369.60003662109377
+        "y": -369.5999755859375
     }
 }
 
@@ -15732,8 +15732,8 @@
     "m_ObjectId": "d433e77dcbee48c1a51ba450cb9e561d",
     "m_Title": "Emission",
     "m_Position": {
-        "x": 6763.20068359375,
-        "y": -3063.2001953125
+        "x": 6763.201171875,
+        "y": -3063.199951171875
     }
 }
 
@@ -16975,7 +16975,7 @@
     "m_Title": "Lifting black shadows",
     "m_Position": {
         "x": 2854.39990234375,
-        "y": -1559.2003173828125
+        "y": -1559.2001953125
     }
 }
 
@@ -18548,7 +18548,7 @@
     "m_Title": "Main light",
     "m_Position": {
         "x": 615.199951171875,
-        "y": -1927.2003173828125
+        "y": -1927.2001953125
     }
 }
 

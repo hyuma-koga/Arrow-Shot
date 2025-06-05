@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Public\Scripts\Audio\BGMPlayer.cs" />
     <Compile Include="Assets\_Public\Scripts\Scene_Move\ClearScene\ReturnToStartScene.cs" />
     <Compile Include="Assets\_Public\Scripts\Bird\BirdController.cs" />
     <Compile Include="Assets\_Public\Scripts\Score\ScoreManager.cs" />
@@ -74,12 +75,14 @@
     <Compile Include="Assets\_Public\ThirdParty\Birds\scripts\lb_BirdController.cs" />
     <Compile Include="Assets\_Public\Scripts\Scene_Move\ClearScene\ClearSceneInitializer.cs" />
     <Compile Include="Assets\_Public\Scripts\Score\ClearSceneScoreDisplay.cs" />
+    <Compile Include="Assets\_Public\Scripts\Audio\UIClickSound.cs" />
     <Compile Include="Assets\_Public\Scripts\Scene_Move\StartScene\StartMenu.cs" />
     <Compile Include="Assets\_Public\ThirdParty\Birds\scripts\lb_CrowProximity.cs" />
     <Compile Include="Assets\_Public\Scripts\Bird\BirdMover.cs" />
     <Compile Include="Assets\_Public\ThirdParty\Birds\scripts\lb_Bird.cs" />
     <Compile Include="Assets\_Public\Scripts\Player\PlayerRotationAdjuster.cs" />
     <Compile Include="Assets\_Public\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\_Public\Scripts\Audio\FootstepAudioPlayer.cs" />
     <Compile Include="Assets\_Public\Scripts\Timer\TimeLimitController.cs" />
     <Compile Include="Assets\_Public\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\_Public\Scripts\Bow\BowController.cs" />
